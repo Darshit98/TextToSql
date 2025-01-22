@@ -1,0 +1,36 @@
+# Python byte-code
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+.env
+
+# Build artifacts
+*.egg
+*.egg-info
+dist/
+build/
+
+# Local configuration
+.vscode/
+*.user
+*.session
+
+# IDE-specific files
+.idea/
+.project
+.settings/
+
+# Test-related files
+.pytest_cache/
+coverage/
+
+# Local history
+.git/refs/original/
+.git/logs/refs/remotes/
+.git/logs/refs/heads/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
